@@ -1,0 +1,24 @@
+{
+  "name": "public-skills",
+  "owner": {
+    "name": "Chris McDermott",
+    "email": "csmcdermott@gmail.com"
+  },
+  "metadata": {
+    "description": "Public collection of Claude Code skills"
+  },
+  "plugins": [
+    {
+      "name": "writing-style",
+      "source": "./skills/writing-style",
+      "description": "Writing style guidelines based on the CIA Style Manual",
+      "author": {
+        "name": "Chris McDermott",
+        "email": "csmcdermott@gmail.com"
+      },
+      "homepage": "https://github.com/csmcdermott/public-skills",
+      "license": "MIT",
+      "keywords": ["writing", "style", "prose", "editing", "documentation"]
+    }
+  ]
+}
