@@ -4,18 +4,17 @@ A collection of Claude Code skills, installable as a plugin.
 
 ## Installation
 
-Add this repo as a plugin:
+Add this repo as a marketplace, then install individual skills:
 
+```bash
+claude plugin marketplace add https://github.com/csmcdermott/public-skills
+claude plugin install writing-style@public-skills
 ```
-claude plugin add https://github.com/csmcdermott/public-skills
-```
-
-All skills in this repo become available immediately. No per-skill install step required.
 
 ### Update
 
-```
-claude plugin update public-skills
+```bash
+claude plugin update writing-style
 ```
 
 ## Skills
