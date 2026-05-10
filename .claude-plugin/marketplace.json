@@ -1,5 +1,5 @@
 {
-  "name": "public-skills",
+  "name": "mcds-public-skills",
   "owner": {
     "name": "Chris McDermott",
     "email": "csmcdermott@gmail.com"
@@ -10,13 +10,13 @@
   "plugins": [
     {
       "name": "writing-style",
-      "source": "./skills/writing-style",
+      "source": "./plugins/writing-style",
       "description": "Writing style guidelines based on the CIA Style Manual",
       "author": {
         "name": "Chris McDermott",
         "email": "csmcdermott@gmail.com"
       },
-      "homepage": "https://github.com/csmcdermott/public-skills",
+      "homepage": "https://github.com/csmcdermott/public-skills/plugins/writing-style",
       "license": "MIT",
       "keywords": ["writing", "style", "prose", "editing", "documentation"]
     }
