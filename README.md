@@ -8,7 +8,7 @@ Add this repo as a marketplace, then install any plugin by name:
 
 ```bash
 claude plugin marketplace add https://github.com/csmcdermott/public-skills
-claude plugin install writing-style@public-skills
+claude plugin install writing-style@mcds-public-skills
 ```
 
 ### Update
