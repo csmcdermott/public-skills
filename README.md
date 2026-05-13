@@ -14,7 +14,7 @@ claude plugin install writing-style@mcds-public-skills
 ### Update
 
 ```bash
-claude plugin marketplace update public-skills
+claude plugin marketplace update mcds-public-skills
 claude plugin update writing-style
 ```
 
