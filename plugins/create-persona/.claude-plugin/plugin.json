@@ -1,0 +1,13 @@
+{
+  "name": "create-persona",
+  "description": "Build custom product persona skills through a structured interview. Each persona becomes a reusable skill that reviews PRDs, user stories, and design specs from that persona's viewpoint.",
+  "version": "1.0.0",
+  "author": {
+    "name": "Chris McDermott",
+    "email": "csmcdermott@gmail.com"
+  },
+  "homepage": "https://github.com/csmcdermott/public-skills/plugins/create-persona/",
+  "repository": "https://github.com/csmcdermott/public-skills",
+  "license": "MIT",
+  "keywords": ["persona", "product", "user-research", "PRD", "design", "user-story"]
+}

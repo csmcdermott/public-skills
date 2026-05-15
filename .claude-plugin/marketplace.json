@@ -19,6 +19,18 @@
       "homepage": "https://github.com/csmcdermott/public-skills/plugins/writing-style",
       "license": "MIT",
       "keywords": ["writing", "style", "prose", "editing", "documentation"]
+    },
+    {
+      "name": "create-persona",
+      "source": "./plugins/create-persona",
+      "description": "Build custom product persona skills through a structured interview. Each persona becomes a reusable skill that reviews PRDs, user stories, and design specs from that persona's viewpoint.",
+      "author": {
+        "name": "Chris McDermott",
+        "email": "csmcdermott@gmail.com"
+      },
+      "homepage": "https://github.com/csmcdermott/public-skills/plugins/create-persona",
+      "license": "MIT",
+      "keywords": ["persona", "product", "user-research", "PRD", "design", "user-story"]
     }
   ]
 }
