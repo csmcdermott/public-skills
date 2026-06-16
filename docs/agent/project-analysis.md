@@ -5,7 +5,7 @@
 | **Project name** | mcds-public-skills |
 | **Purpose** | Public Claude Code plugin marketplace. Users install individual plugins via the Claude Code CLI. |
 | **Target release** | Ongoing / open-ended |
-| **Last updated** | 2026-05-14 |
+| **Last updated** | 2026-06-15 |
 
 ## Tech Stack
 
@@ -47,12 +47,19 @@ public-skills/
 ├── .claude-plugin/
 │   └── marketplace.json           # root marketplace registry
 ├── plugins/
-│   └── writing-style/             # first and currently only plugin
+│   ├── writing-style/             # narrative-arc writing rules with positive precepts P1-P5
+│   │   ├── .claude-plugin/
+│   │   │   └── plugin.json
+│   │   └── skills/
+│   │       └── writing-style/
+│   │           ├── SKILL.md       # main skill: precepts, format entry points, rationalization table
+│   │           └── references/    # narrative-arcs, anti-patterns, evidence-substitutions
+│   └── create-persona/            # structured interview that emits persona review skills
 │       ├── .claude-plugin/
-│       │   └── plugin.json        # plugin metadata
+│       │   └── plugin.json
 │       └── skills/
-│           └── writing-style/
-│               └── SKILL.md       # CIA Style Manual-based writing rules
+│           └── create-persona/
+│               └── SKILL.md
 ├── docs/
 │   └── agent/
 │       └── project-analysis.md   # this file
@@ -110,11 +117,15 @@ claude plugin install <plugin-name>@mcds-public-skills
 | Date | Area | Description |
 | --- | --- | --- |
 | 2026-05-14 | `.claude/settings.local.json` | Contains stale `mkdir`/`cp`/`rm` permission entries from initial plugin scaffolding; can be cleaned up |
+| 2026-06-15 | `~/.claude/skills/writing-style/SKILL.md` | Stale personal-scope writing-style skill duplicates the plugin (older content); causes two `writing-style` entries in skill discovery. Worth deleting once the plugin version is confirmed in use |
+| 2026-06-15 | `plugins/writing-style/skills/writing-style/SKILL.md` | Now ~2,442 words — well above the writing-skills <500 word target for non-getting-started skills. Quick reference table at top mitigates skim cost, but long-term compression worth considering |
 
 ## Recently Changed Areas
 
 | Date | File / Area | What changed |
 | --- | --- | --- |
+| 2026-06-15 | `plugins/writing-style/skills/writing-style/SKILL.md` | Renamed frontmatter `general-writing` -> `writing-style` to match plugin/directory; stripped workflow-summary tail from description; added Quick reference table, When NOT to use, Common mistakes, Rationalization table, Red flags; added P3 factual-vs-illustrative carve-out and Core craft length-matching rule |
+| 2026-06-15 | `plugins/writing-style/skills/writing-style/references/` | Em-dash sweep across SKILL.md and all references (body prose only; headings preserved per skill's own title exception). Added Boundary cases sub-table + sharper test under Aphoristic-flourish in `anti-patterns.md`. Consolidated four old reference files into `evidence-substitutions.md` (slop-word-blacklist, verbose-phrases, ai-tells, bare-adjectives-examples, coined-nouns-examples removed) |
 | 2026-05-14 | `plugins/create-persona/` | Added create-persona plugin: structured interview skill that generates persona SKILL.md files for product reviews |
 | 2026-05-14 | `.claude-plugin/marketplace.json` | Added create-persona entry |
 | 2026-05-14 | `docs/agent/project-analysis.md` | Created initial project analysis |

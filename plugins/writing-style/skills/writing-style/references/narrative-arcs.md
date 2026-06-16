@@ -6,9 +6,9 @@ Read this *before* drafting, not after.
 
 ## 1. Carry-through inside a paragraph (long-form narrative essay)
 
-A canonical opening from a well-known technology essay introduces two contemporaneous events — selling personal computers, and selling operating systems for them — and names a single tension: *the second was much weirder than the first.* The paragraph then returns to that tension from five angles in succession: a computer had physical reality (you could open the box and watch lights blink), while an OS arrived as a long string of ones and zeros with no tangible incarnation; even people who understood what an OS was treated it as an arcane engineering prodigy, like a breeder reactor or a spy plane, never something that could be "productized."
+A canonical opening from a well-known technology essay introduces two contemporaneous events (selling personal computers, and selling operating systems for them) and names a single tension: *the second was much weirder than the first.* The paragraph then returns to that tension from five angles in succession: a computer had physical reality (you could open the box and watch lights blink), while an OS arrived as a long string of ones and zeros with no tangible incarnation; even people who understood what an OS was treated it as an arcane engineering prodigy, like a breeder reactor or a spy plane, never something that could be "productized."
 
-What's happening: one tension named — *operating systems are weirder to sell than computers* — and then the same claim restated from five angles inside one paragraph: physical box vs. no incarnation, lights blink vs. ones and zeroes, breeder reactor analogy, not productizable. The author does not state the tension once and move to method. The tension returns from a new angle every two or three sentences.
+What's happening: one tension named (*operating systems are weirder to sell than computers*) and then the same claim restated from five angles inside one paragraph: physical box vs. no incarnation, lights blink vs. ones and zeroes, breeder reactor analogy, not productizable. The author does not state the tension once and move to method. The tension returns from a new angle every two or three sentences.
 
 **Lesson:** the section paragraph should not be "topic sentence + supporting detail + supporting detail + closer". It should be "tension restated + first angle on the tension + second angle + third angle". The same claim returns from new angles.
 
@@ -18,7 +18,7 @@ What's happening: one tension named — *operating systems are weirder to sell t
 >
 > **The interesting piece this week was not the scaffold itself, it was the conversation about what comes next.** Proposal generation's hardest problem is not the document, it is the intelligence behind it: recommending packages, services, and add-ons that fit the event. ...
 
-What's happening: paragraph 1 closes a topic (scaffold shipped). Paragraph 2 opens with one sentence that *names what shifted* — "not the scaffold itself, it was the conversation". The pivot does two things at once: it acknowledges the turn (signals to the reader that we are moving), and it names the new subject (what we are moving to). Twenty-three words.
+What's happening: paragraph 1 closes a topic (scaffold shipped). Paragraph 2 opens with one sentence that *names what shifted*: "not the scaffold itself, it was the conversation". The pivot does two things at once: it acknowledges the turn (signals to the reader that we are moving), and it names the new subject (what we are moving to). Twenty-three words.
 
 **Pattern shapes to steal:**
 - *The interesting piece of [X] was not [Y], it was [Z].*
@@ -39,8 +39,8 @@ Failure pattern (a recap at the end of three sections that already said this):
 Each sentence after the first is restating the section that was just described. The reader does not need the recap.
 
 Fixes (pick one):
-- **Forecast at the head** — move the summary up so it sets expectations before the three sections, not after.
-- **Cut entirely** — if the sections already carry the through-line (per P1), the summary is redundant.
+- **Forecast at the head:** move the summary up so it sets expectations before the three sections, not after.
+- **Cut entirely:** if the sections already carry the through-line (per P1), the summary is redundant.
 
 **Test:** does the sentence name what shifts (forward-looking, pivot) or restate what just happened (backward-looking, recap)? Keep the first, cut the second.
 
@@ -50,7 +50,7 @@ A strong piece extending or referencing prior work does not say "we have a stron
 
 > the adapter reads out the unstated intermediate step of a two-hop question in 91% of cases against 56% untrained, and names the topic encoded in an activation 94% of the time against 1% untrained.
 
-What's happening: the prior result is named with a number, a baseline, and the scope — *before* the downstream claim rests on it. The reader doesn't have to take the writer's word for the foundation; they can see it.
+What's happening: the prior result is named with a number, a baseline, and the scope, *before* the downstream claim rests on it. The reader doesn't have to take the writer's word for the foundation; they can see it.
 
 The same move applies outside research writing. Business updates:
 
@@ -60,11 +60,11 @@ Status updates:
 
 > *"The assistant is more reliable"* → *"The assistant now retains context across multi-step exchanges that used to drop after the third turn."*
 
-**Lesson:** every "we made progress on X" or "the source supports Y" sentence is followed within two sentences by one concrete specific — a number, a measured behavior, a named finding, a quote. Assertion without the specifics is decoration.
+**Lesson:** every "we made progress on X" or "the source supports Y" sentence is followed within two sentences by one concrete specific: a number, a measured behavior, a named finding, a quote. Assertion without the specifics is decoration.
 
 ## 4. Carry-through across sections (the structural move)
 
-When a piece has three sections, three updates, three arguments — each should read as another angle on the same opening tension, not as three parallel summaries.
+When a piece has three sections, three updates, three arguments, each should read as another angle on the same opening tension, not as three parallel summaries.
 
 If the opening tension is *"the output says one thing but the internal state says another"*, then:
 
