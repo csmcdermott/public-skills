@@ -1,0 +1,33 @@
+# Judge-calibration fixture: paired with 01-team-email.
+# Same criteria; hand-written output that violates several of them.
+# The fixture passes ONLY if the judge correctly fails this output. If the
+# judge passes it, the rubric is too loose and needs tightening.
+
+mode = "behavior"
+description = "Known-bad team email — judge must catch the violations"
+
+prompt = """
+Draft a short email to my team telling them the staging deploy planned for Tuesday
+is slipping to Thursday because the migration is failing on the large-account shard.
+"""
+
+known_bad_output = """
+Hi team,
+
+I wanted to reach out and let everyone know that the staging deploy planned for Tuesday is going to slip a bit — we ran into a few issues with the migration that we're still working through. Hopefully we'll have it all sorted out shortly, and we'll leverage the rest of the week to land a real paradigm shift in how we handle these large migrations going forward.
+
+Just wanted to give a quick heads-up so you can plan accordingly. I'll send a more detailed update once we have more clarity on the timeline.
+
+Thanks for your patience and understanding!
+"""
+
+criteria = [
+  "The first sentence states both the slip and the new date (Thursday); it does not open with framing, context, or pleasantries.",
+  "Names the specific cause (migration failing on the large-account shard); does not use vague gestures like 'issues' or 'a few things came up'.",
+  "Contains no em-dashes (the U+2014 character) anywhere in the body.",
+  "Contains no filler openers: 'I wanted to reach out', 'I hope this finds you well', 'just wanted to', 'quick note'.",
+  "Contains no hedging words used to soften the news: 'hopefully', 'fingers crossed', 'should be', 'I think'.",
+  "Contains no slop words: 'leverage', 'paradigm', 'scaffolding', 'machinery', 'substrate', 'modality'.",
+  "Body is under 100 words.",
+  "Active voice throughout; no passive constructions like 'the deploy has been delayed by the team'.",
+]

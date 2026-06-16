@@ -1,0 +1,19 @@
+mode = "behavior"
+description = "Commit message for a null-handling bug fix"
+
+prompt = """
+Write a commit message (subject + body) for this change: the auth middleware was
+crashing when the User-Agent header was missing because we called .toLowerCase()
+on undefined. Fix is to default the header to an empty string before parsing.
+"""
+
+criteria = [
+  "Subject line is in the imperative mood (starts with a verb like 'fix', 'handle', 'guard'); does not use past tense or gerunds ('fixed', 'fixing').",
+  "Subject line is 72 characters or fewer.",
+  "Subject line names the concrete change (the null-handling fix or the middleware), not vague terms like 'various improvements' or 'misc fixes'.",
+  "Body explains why the change matters or what failure it prevents; it does not narrate the diff line by line.",
+  "Body is two or three short sentences, not a bulleted list and not a paragraph longer than four sentences.",
+  "Contains no em-dashes in the body prose.",
+  "Contains no slop words: 'leverage', 'paradigm', 'scaffolding', 'machinery', 'substrate', 'modality'.",
+  "Contains no AI tells: 'it is worth noting', 'the key insight is', 'load-bearing', 'this isn't just X, it's Y'.",
+]

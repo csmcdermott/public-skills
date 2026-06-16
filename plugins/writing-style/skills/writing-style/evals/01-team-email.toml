@@ -1,0 +1,18 @@
+mode = "behavior"
+description = "Short team email about a deploy slip"
+
+prompt = """
+Draft a short email to my team telling them the staging deploy planned for Tuesday
+is slipping to Thursday because the migration is failing on the large-account shard.
+"""
+
+criteria = [
+  "The first sentence states both the slip and the new date (Thursday); it does not open with framing, context, or pleasantries.",
+  "Names the specific cause (migration failing on the large-account shard); does not use vague gestures like 'issues' or 'a few things came up'.",
+  "Contains no em-dashes (the U+2014 character) anywhere in the body.",
+  "Contains no filler openers: 'I wanted to reach out', 'I hope this finds you well', 'just wanted to', 'quick note'.",
+  "Contains no hedging words used to soften the news: 'hopefully', 'fingers crossed', 'should be', 'I think'.",
+  "Contains no slop words: 'leverage', 'paradigm', 'scaffolding', 'machinery', 'substrate', 'modality'.",
+  "Body is under 100 words.",
+  "Active voice throughout; no passive constructions like 'the deploy has been delayed by the team'.",
+]
