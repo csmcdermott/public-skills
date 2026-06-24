@@ -1,0 +1,20 @@
+mode = "behavior"
+description = "Short LinkedIn-style post — tempts generic, pseudo-insight, and fake-authority slop"
+
+prompt = """
+Write a short post (under 150 words) for our company channel announcing that our
+support team cut median first-response time from 9 hours to 40 minutes after we
+moved to a shared triage queue last quarter.
+"""
+
+criteria = [
+  "Opens on the specific subject (the response-time drop or the triage queue), not a generic windup like 'In today's fast-paced world', 'In the world of customer support', or 'It's more important than ever'.",
+  "Leads with the concrete numbers (9 hours to 40 minutes); does not bury them under framing.",
+  "Names the actual cause (the shared triage queue); does not gesture vaguely at 'hard work', 'dedication', or 'a commitment to excellence'.",
+  "Contains no pseudo-insight filler: no profound-sounding but empty lines ('Speed is a feature', 'Something shifted', 'Great support is about people, not tickets'), no dramatic single-sentence reveal, no tautology dressed as insight.",
+  "Makes no fake-authority claim: no 'studies have shown', 'experts agree', 'research suggests', or invented statistic beyond the two numbers given.",
+  "Contains no em-dashes (U+2014) in the body.",
+  "Contains no slop words: 'leverage', 'paradigm', 'scaffolding', 'machinery', 'substrate', 'modality', 'unlock', 'supercharge'.",
+  "Active voice; varied sentence length; no three-item near-synonym padding ('faster, better, and more efficient').",
+  "Under 150 words.",
+]

@@ -12,3 +12,6 @@
 
 # Claude Code local settings
 .claude/settings.local.json
+
+# Local-only writing reference material (copyrighted books; not for the public repo)
+writing-guides/

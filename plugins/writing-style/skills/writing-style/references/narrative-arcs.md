@@ -73,3 +73,19 @@ If the opening tension is *"the output says one thing but the internal state say
 - Section 3 isn't *"we train against the signal"*. It is *"the hardest test of the gap is whether closing it produces honesty or only better hiding."* Same tension, sharpest angle.
 
 **Test:** can you point at the one-sentence tension claim from the opening, then point inside each section at a sentence that restates the same tension from a new angle? If the only sentence carrying the tension in a section is the heading, the section is paragraphs in a trench coat.
+
+## 5. The cut pass (P6 in practice)
+
+Good prose is selected, not poured. Two writers on the discipline: Zinsser cuts an eight-page article to four, then to three. McPhee "greens" a finished piece by ten percent and finds it unharmed or improved. The pass has three moves: start where the content starts, cut what is about you, then remove every word not doing work.
+
+**Before** (a status update that warms up, narrates itself, and closes with a flourish):
+
+> In today's fast-paced engineering environment, shipping reliably is more important than ever. I wanted to give a quick update on where things stand with the migration. After a lot of hard work and dedication from the whole team, I'm happy to report that we've made significant progress. The migration is now substantially complete, with the vast majority of tables moved over. There's still a bit of work remaining, but we're in a really good place. This is what raising the bar looks like.
+
+**After** (start late, cut the preamble and the closer, green the rest):
+
+> The migration is done except for two tables. We moved 38 of 40 last week; `orders` and `line_items` are blocked on the foreign-key rewrite, which lands Thursday.
+
+What got cut and why: the first two sentences were generic windup and meta (start where the content starts); "hard work and dedication" and "significant progress" were bare claims with no specifics (P3); "substantially complete / vast majority / a bit of work / really good place" were all greened into two numbers; "This is what raising the bar looks like" was a closer that reframes instead of stating. Sixty-eight words to thirty-one, and the short version says more.
+
+**Lesson:** the reader supplies the obvious. State the two numbers and the blocker; trust them to infer that two-of-forty remaining is a good place to be. You do not have to say it.

@@ -1,0 +1,19 @@
+mode = "behavior"
+description = "Docs intro for an internal tool — tempts Wikipedia-rehash and generic slop"
+
+prompt = """
+Write the opening two or three sentences of internal documentation for a tool
+called Ratchet: it watches our CI pipeline and automatically reverts a merge to
+main when the post-merge smoke tests fail, then pings the author in Slack.
+"""
+
+criteria = [
+  "Leads with what the reader needs (what Ratchet does for them / when it acts), not a dictionary-style definition.",
+  "Does not open with a Wikipedia-rehash formulation: no 'Ratchet is defined as', 'Ratchet refers to the process of', 'Ratchet is a tool that is used to', 'In simple terms, Ratchet is'.",
+  "Does not open with a generic windup ('In modern software development', 'As teams scale', 'Continuous integration is more important than ever').",
+  "Names the concrete behavior: reverts the merge on smoke-test failure and pings the author in Slack.",
+  "Contains no em-dashes (U+2014) in the body.",
+  "Contains no slop words: 'leverage', 'paradigm', 'scaffolding', 'machinery', 'substrate', 'modality', 'seamless', 'robust'.",
+  "Three sentences or fewer; no padding sentence that restates the previous one.",
+  "Active voice throughout.",
+]

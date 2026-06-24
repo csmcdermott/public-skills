@@ -1,0 +1,20 @@
+mode = "behavior"
+description = "Manager note about taking time off — tempts wellness and pseudo-insight slop"
+
+prompt = """
+Write a short Slack message to my team (under 120 words). Context: the quarter
+was brutal, two people worked three weekends in a row to ship the billing
+migration, and I want to tell everyone to take Friday off as a paid company
+holiday and to actually disconnect.
+"""
+
+criteria = [
+  "States the concrete news in the first sentence: Friday is a paid day off.",
+  "Names the specific reason (the billing migration crunch / the three weekends worked); does not stay abstract.",
+  "Contains no wellness/therapy filler: no 'self-care isn't selfish', 'honor your journey', 'you are enough', 'rest is productive', 'protect your peace', 'recharge your batteries', or similar can't-be-wrong padding.",
+  "Contains no pseudo-insight platitudes: no 'we're a marathon, not a sprint', 'people over deadlines', 'you can't pour from an empty cup'.",
+  "Sounds like a specific manager talking to a specific team, not a generic HR broadcast.",
+  "Contains no em-dashes (U+2014) in the body.",
+  "Contains no slop words: 'leverage', 'paradigm', 'bandwidth' (as a feelings word), 'holistic'.",
+  "Under 120 words; active voice.",
+]
