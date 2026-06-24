@@ -76,15 +76,15 @@ One beat, then the consequence with the next move named. If a sentence does two 
 
 Three subtractive moves. All of them also shrink the piece, which is usually an improvement:
 
-- **Start where the content starts.** Drafts warm up with generalities that could front any piece (*"In today's fast-paced world"*, *"As teams scale"*, *"X has never been more important"*). Cut the windup; open on the specific subject. Zinsser's editor move: throw away the first paragraphs until you reach the sentence where a person is actually talking.
-- **Cut what's about you, not the reader.** Drop preamble and meta (*"I wanted to reach out"*, *"Great question"*, *"As an AI"*). Trust the reader to supply the obvious: state the specifics and let them infer the rest instead of narrating every step (McPhee: *if you are prancing between subject and reader, get lost*).
+- **Start where the content starts.** Drafts warm up with generalities that could front any piece (*"In today's fast-paced world"*, *"As teams scale"*, *"X has never been more important"*). Cut the windup; open on the specific subject. Throw away the opening sentences until you reach the one where a person is actually talking.
+- **Cut what's about you, not the reader.** Drop preamble and meta (*"I wanted to reach out"*, *"Great question"*, *"As an AI"*). Trust the reader to supply the obvious: state the specifics and let them infer the rest instead of narrating every step. If you find yourself standing between the subject and the reader, step out of the way.
 - **Green the draft.** Once it reads as done, cut ~10–15% anyway. Mark every word not doing work: the preposition glued to a verb (*free up*), the adjective stating a known fact (*tall skyscraper*), the qualifier (*a bit*, *sort of*), the sentence that restates the last one. Remove it so no one would notice it was there.
 
 **Test:** point at any sentence and name the fact, state change, or constraint it carries that the piece would lack without it. If the answer is "none," cut it. See `references/narrative-arcs.md` §5.
 
 ## The five slop tells
 
-Named patterns from the slop taxonomy. Each is already caught by a precept; this is the fast self-check. Tell-phrases are in `references/anti-patterns.md`.
+Five named patterns of AI slop. Each is already caught by a precept; this is the fast self-check. Tell-phrases are in `references/anti-patterns.md`.
 
 - **Generic:** opener or claim that could front any topic, no specifics → P3, P6.
 - **Pseudo-insight:** profound-sounding but empty; dramatic one-line reveal; tautology as wisdom → closer-inversion and aphoristic-flourish bans.
@@ -94,7 +94,7 @@ Named patterns from the slop taxonomy. Each is already caught by a precept; this
 
 ## Core craft rules
 
-- **Strunk & White basics:** short, active, plain. Frugal with modifiers; trust nouns and verbs.
+- **Plain-style basics:** short, active, plain. Frugal with modifiers; trust nouns and verbs.
 - **Know your reader.** Calibrate jargon, recap, and assumed vocabulary to *who's reading*. A status update for a peer assumes context a stakeholder note can't.
 - **Be objective.** Write as a reporter, not an advocate. State what happened; let the reader draw the conclusion. Where natural, write in the first person; it keeps the prose human.
 - **Calibrate confidence honestly.** *"90% confident we ship before Friday"* beats *"we're confident"*; *"I think this is right but haven't tested it"* beats unqualified assertion. Don't invent a percentage, but don't hedge what you actually know.

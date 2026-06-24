@@ -76,7 +76,7 @@ If the opening tension is *"the output says one thing but the internal state say
 
 ## 5. The cut pass (P6 in practice)
 
-Good prose is selected, not poured. Two writers on the discipline: Zinsser cuts an eight-page article to four, then to three. McPhee "greens" a finished piece by ten percent and finds it unharmed or improved. The pass has three moves: start where the content starts, cut what is about you, then remove every word not doing work.
+Good prose is selected, not poured. The discipline is brutal cutting: an eight-page article goes to four, then to three; a finished piece loses ten percent and reads unharmed or better. The pass has three moves: start where the content starts, cut what is about you, then remove every word not doing work.
 
 **Before** (a status update that warms up, narrates itself, and closes with a flourish):
 

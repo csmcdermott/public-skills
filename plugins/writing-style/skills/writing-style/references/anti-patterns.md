@@ -223,7 +223,7 @@ SKILL.md names the five taxonomy categories; this is the catalog of tell-phrases
 
 ## Clutter — the bracket test
 
-Zinsser's self-editing pass, the mechanical form of P6's "green the draft": put mental brackets around every component not doing useful work, then cut what's bracketed. Most first drafts shed ~50% without losing meaning or voice.
+The self-editing pass behind P6's "green the draft": put mental brackets around every component not doing useful work, then cut what's bracketed. Most first drafts shed ~50% without losing meaning or voice.
 
 What to bracket:
 
