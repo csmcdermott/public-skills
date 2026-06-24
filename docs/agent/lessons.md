@@ -6,6 +6,7 @@
 
 | Date | Context | What went wrong | Rule learned |
 | --- | --- | --- | --- |
+| 2026-06-24 | Refining writing-style from two books + a website | Left source attributions ("Zinsser", "McPhee", "slop taxonomy", "Strunk & White") in the skill body and references. User had to ask for their removal — they want only the takeaways in skill-facing content, not citations of the sources it was distilled from. | When distilling named external sources into a skill, strip attributions from SKILL.md and references by default. The skill reads as self-contained guidance; keep provenance in agent docs, commit messages, and memory only. Also gitignore copyrighted source material (the PDFs) rather than committing it to a public repo. |
 
 
 ## Patterns to Follow
