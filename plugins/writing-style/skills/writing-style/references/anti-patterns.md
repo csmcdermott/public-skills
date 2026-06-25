@@ -106,8 +106,6 @@ Good short sentences (load-bearing, one beat):
 | *"It's not what you'd expect."* | Cut | Attitude reframe. State what it *is*, not what it surprises. |
 | *"Tests passed. Deployed."* | Keep | Two state changes; no judgment, no reframe. |
 
-**Sharper test (for borderline cases):** name the fact the sentence carries that the paragraph would lack without it. If you can name a number, a state change, a constraint, or a specific behavior, keep. If the answer is "the contrast," "the punchline," or "the closer," it was performing the rhythm, not earning it.
-
 ### Rhetorical escalation — cut the reframe
 
 "X isn't just Y, it's Z" inflates significance through false contrast ("*this isn't just an iterative improvement, it's a paradigm shift*"). State the claim directly.
