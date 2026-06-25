@@ -1,0 +1,21 @@
+mode = "behavior"
+description = "Short recommendation memo — tempts buried recommendation and performative both-sides hedging"
+
+prompt = """
+Write a short memo (under 180 words) recommending whether we should move our
+nightly batch jobs off the shared analytics warehouse onto a dedicated cluster.
+Context you can use: the batch jobs and ad-hoc analyst queries currently contend
+for the same warehouse, the nightly run has missed its 6am SLA 11 times in the
+last 30 days, and a dedicated cluster would cost about $4k/month.
+"""
+
+criteria = [
+  "States the recommendation (move the batch jobs to a dedicated cluster, or not) by the end of the first paragraph; the reader knows the position early, not only in a conclusion.",
+  "Brings the specific numbers given (11 missed SLAs in 30 days, ~$4k/month); does not stay abstract about 'reliability problems' or 'costs'.",
+  "Does not use performative both-sides hedging ('on one hand... on the other hand', 'there are pros and cons to consider') in place of taking a position.",
+  "Does not hedge the recommendation into mush ('it might be worth considering possibly').",
+  "Contains no em-dashes (U+2014) in the body.",
+  "Contains no slop words: 'leverage', 'paradigm', 'synergy', 'holistic', 'robust', 'seamless'.",
+  "Contains no AI tells: 'it is worth noting', 'the key insight is', 'this isn't just X, it's Y'.",
+  "Under 180 words; active voice.",
+]

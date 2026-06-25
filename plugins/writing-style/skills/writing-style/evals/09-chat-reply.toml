@@ -1,0 +1,19 @@
+mode = "behavior"
+description = "Quick Slack reply — tempts over-formality, question-restating, and padding"
+
+prompt = """
+A teammate Slacks you: "Quick q — is the staging DB safe to wipe and reseed
+right now, or is someone using it?" You know the answer: yes, it's safe, the
+nightly integration run already finished at 2am and nothing else touches staging
+until tomorrow's run.
+"""
+
+criteria = [
+  "Answers directly in the first sentence (yes, safe to wipe); does not open with preamble like 'Great question' or 'Thanks for checking'.",
+  "Does not restate the question back before answering ('You asked whether staging is safe to wipe...').",
+  "Gives the one relevant reason (nightly run finished at 2am, nothing else touches it until tomorrow); does not over-explain.",
+  "Matches Slack register: short and conversational, not a formal email with greeting and sign-off.",
+  "Under 40 words.",
+  "Contains no em-dashes (U+2014).",
+  "Contains no hedging that contradicts the known answer ('should be fine', 'I think', 'probably').",
+]

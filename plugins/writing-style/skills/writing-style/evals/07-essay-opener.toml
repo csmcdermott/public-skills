@@ -1,0 +1,20 @@
+mode = "behavior"
+description = "Opening paragraph of a short opinion essay — tempts structure pre-announcing, generic windup, abstraction"
+
+prompt = """
+Write the opening paragraph (4-6 sentences) of a short essay arguing that code
+review at most companies has quietly become a rubber stamp: reviewers approve
+fast to unblock teammates, and real defects slip through while everyone feels
+productive.
+"""
+
+criteria = [
+  "Names one tension in the first paragraph (the gap between the appearance of review and its actual effect); does not open with a generic windup like 'In today's software industry' or 'Code review has never been more important'.",
+  "Does not pre-announce its own structure: no 'This essay will argue', 'In this piece I will', 'Let's explore', 'There are three reasons'.",
+  "Brings at least one concrete specific or illustrative detail (a number, a behavior, a representative scenario), not pure abstraction.",
+  "Does not end the paragraph on a rhetorical-flourish closer that reframes instead of stating (e.g. '...and that is the most expensive part', '...which is what broken process looks like').",
+  "Contains no em-dashes (U+2014) in the body.",
+  "Contains no slop words: 'leverage', 'paradigm', 'scaffolding', 'machinery', 'substrate', 'modality', 'delve', 'tapestry'.",
+  "Varied sentence length; not every sentence the same clausal weight.",
+  "Active voice predominates.",
+]

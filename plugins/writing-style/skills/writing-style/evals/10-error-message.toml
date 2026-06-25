@@ -1,0 +1,18 @@
+mode = "behavior"
+description = "User-facing error message — tempts vague framing and missing fix"
+
+prompt = """
+Write the error message a CLI should print when a user runs `deploy` but the
+config file is missing the required `region` field. The message should help them
+fix it fast.
+"""
+
+criteria = [
+  "Names the specific cause: the `region` field is missing from the config file.",
+  "Tells the user the concrete action to fix it (add a region, e.g. which field/where), not just that something failed.",
+  "Leads with the cause or the fix, not with generic framing like 'An error occurred' or 'Something went wrong while processing your request'.",
+  "Does not apologize or editorialize ('Oops!', 'Unfortunately', 'We're sorry to say').",
+  "Concise: at most two short lines plus an optional example; no paragraph of explanation.",
+  "Contains no em-dashes (U+2014).",
+  "Contains no slop words: 'leverage', 'seamless', 'robust', 'kindly'.",
+]
