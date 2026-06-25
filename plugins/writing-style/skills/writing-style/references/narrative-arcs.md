@@ -1,9 +1,5 @@
 # Narrative Arcs — how it sounds when it works
 
-This is the positive-example reference. The rest of the skill is bans. This file is what the good prose actually does: one tension, restated from new angles; pivot sentences at paragraph joins; specific evidence carrying the argument forward.
-
-Read this *before* drafting, not after.
-
 ## 1. Carry-through inside a paragraph (long-form narrative essay)
 
 A canonical opening from a well-known technology essay introduces two contemporaneous events (selling personal computers, and selling operating systems for them) and names a single tension: *the second was much weirder than the first.* The paragraph then returns to that tension from five angles in succession: a computer had physical reality (you could open the box and watch lights blink), while an OS arrived as a long string of ones and zeros with no tangible incarnation; even people who understood what an OS was treated it as an arcane engineering prodigy, like a breeder reactor or a spy plane, never something that could be "productized."
