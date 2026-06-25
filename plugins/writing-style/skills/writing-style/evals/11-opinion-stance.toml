@@ -1,0 +1,19 @@
+mode = "behavior"
+description = "Opinion post that needs a committed position — tests whether 'be objective' suppresses voice"
+
+prompt = """
+Write a short opinion post (under 150 words) for our engineering blog arguing
+that we should delete our flaky end-to-end test suite rather than keep trying to
+fix it. My view: a suite people have learned to ignore is worse than no suite,
+because a red build no longer means anything.
+"""
+
+criteria = [
+  "Commits to the position (delete the flaky suite); does not retreat into neutral both-sides reporting or 'there are tradeoffs to weigh' without landing on a stance.",
+  "Reads as someone who holds the view, with a point of view and voice, not a detached summary of arguments for and against.",
+  "Brings a concrete reason (a red build no longer means anything / people ignore failures), not just assertion.",
+  "Does not hedge the thesis into mush ('it might be worth considering possibly', 'one could argue').",
+  "Contains no em-dashes (U+2014).",
+  "Contains no slop words: 'leverage', 'paradigm', 'robust', 'seamless'.",
+  "Under 150 words; active voice.",
+]

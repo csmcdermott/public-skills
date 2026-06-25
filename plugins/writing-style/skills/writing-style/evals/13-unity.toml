@@ -1,0 +1,18 @@
+mode = "behavior"
+description = "Vivid narrative that tempts tense and register drift — tests unity of tense/person/register"
+
+prompt = """
+Write a short, vivid piece (under 130 words) for the company blog about what the
+room was like during last Friday's launch: the final deploy, the dashboard
+everyone was watching, the first real users coming in.
+"""
+
+criteria = [
+  "Holds one principal tense. It does not drift between past narration ('we deployed', 'the room went quiet') and present-tense color ('everyone is staring at the dashboard') within the piece.",
+  "Holds one register. It does not swing between formal ('the deployment was initiated') and casual/slangy ('everybody totally lost it') from sentence to sentence.",
+  "Holds one pronoun stance (e.g. 'we' throughout); does not switch between 'we', 'you', and 'I' as the narrating subject.",
+  "Brings at least one concrete detail (a number on the dashboard, a specific time, a named reaction), not pure abstraction.",
+  "Contains no em-dashes (U+2014).",
+  "Contains no slop words: 'leverage', 'electric atmosphere', 'palpable', 'journey'.",
+  "Under 130 words.",
+]

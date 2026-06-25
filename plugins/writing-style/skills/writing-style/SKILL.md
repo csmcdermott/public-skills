@@ -88,7 +88,7 @@ Five named patterns of AI slop. Each is already caught by a precept; this is the
 
 - **Plain style:** short, active, plain; frugal with modifiers; trust nouns and verbs.
 - **Know your reader.** Calibrate jargon, recap, and assumed vocabulary to who's reading.
-- **Be objective.** Report what happened; let the reader draw the conclusion. Write in the first person where natural; it keeps the prose human.
+- **Report or argue, but commit.** In status updates, news, and docs, report what happened and let the reader draw the conclusion. In essays, memos, and op-eds, take a position and say what you think; neutral both-sides hedging there reads as evasion. Write in the first person where natural, and don't write anything you wouldn't say aloud.
 - **Calibrate confidence.** *"90% confident we ship before Friday"* beats *"we're confident."* Don't invent a percentage, but don't hedge what you actually know.
 - **Match length to genre.** A commit body is two or three sentences; a chat reply one to three. P5 varies length within a piece; this calibrates the whole piece. Long where short would do is its own AI tell.
 

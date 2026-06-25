@@ -1,0 +1,18 @@
+mode = "behavior"
+description = "A close that needs a real ending — tests for flat/abrupt or vague-reframe endings"
+
+prompt = """
+Write a short reflective close (3 to 4 sentences) to a quarterly engineering
+update. Context: this quarter the team paid down a large amount of tech debt
+that users will never see, but that makes the next big feature (real-time sync)
+buildable at all.
+"""
+
+criteria = [
+  "The final sentence lands on something concrete: a specific consequence, the named next thing (real-time sync), or a full-circle echo of the opening. It is not a vague rhetorical reframe ('...which is what real progress looks like', '...and that makes all the difference', '...the work behind the work').",
+  "Does not trail off into weak non-endings or fake analysis ('we'll see how it goes', 'only time will tell', 'the future looks bright').",
+  "Does not wind up with a summary marker ('In conclusion', 'In sum', 'To wrap up', 'All in all').",
+  "Ties the close to the specific situation (invisible debt paydown enabling real-time sync), not generic uplift that could end any update.",
+  "Contains no em-dashes (U+2014).",
+  "Contains no slop words: 'leverage', 'paradigm', 'robust', 'seamless', 'journey'.",
+]
