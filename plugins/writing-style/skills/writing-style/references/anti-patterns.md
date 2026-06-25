@@ -12,21 +12,21 @@ The **"significant" trap:** "The decision is significant" says nothing; state *w
 
 ### Slop words — replace with plain English
 
-Words that trigger an "AI smell" in human reading. Strip on the way out: they leak from AI-thinking-partner conversations, brainstorm dumps, and prior drafts.
+Words that trigger an "AI smell" in human reading; they leak from thinking-partner conversations, brainstorm dumps, and prior drafts. Strip on the way out.
 
-| Banned word | Why it reads as AI slop | Plain substitution |
-|---|---|---|
-| **substrate** | LLM-coined framing that loads the word with conceptual baggage. Real distinction survives without it. | the base / the underlying system / the activations / the platform |
-| **machinery** | Filler that adds weight without substance. | the system / the tool / the approach / the same technique |
-| **primitive** (as a bare noun for your own deliverable) | Sounds technical but adds nothing. | the tool / the method / the building block / name the actual thing |
-| **deconfusion**, **deconfusing** | Coined fake-jargon. | the clearer framing / clarifies / disambiguates |
-| **scaffolding** (as a metaphor for "framework") | AI register. Real scaffolding (construction, biology) is fine. | the framework / the structure / the supporting work |
-| **structurally** (as filler: "structurally different") | Adds no information. | drop the word, or "fundamentally different" if you mean "different in kind" |
-| **paradigm**, **paradigmatic** (used casually) | Big-noun decoration; "approach" or "kind" works. | the approach / the kind / the model |
-| **leverage** (as a verb meaning "use") | Corporate-deck register. | use / apply / draw on / build on |
-| **modality** | Pads "way" or "format". | the way / the format / the channel |
+| Banned word | Plain substitution |
+|---|---|
+| **substrate** | the base / the underlying system / the activations / the platform |
+| **machinery** | the system / the tool / the approach |
+| **primitive** (bare noun for your own deliverable) | the tool / the method / the building block / name the actual thing |
+| **deconfusion**, **deconfusing** | the clearer framing / clarifies / disambiguates |
+| **scaffolding** (metaphor for "framework") | the framework / the structure / the supporting work |
+| **structurally** (as filler: "structurally different") | drop it, or "fundamentally different" if you mean different in kind |
+| **paradigm**, **paradigmatic** (used casually) | the approach / the kind / the model |
+| **leverage** (verb meaning "use") | use / apply / draw on / build on |
+| **modality** | the way / the format / the channel |
 
-**Term-of-art exceptions (NOT slop):** *structurally isolates* / *structurally aligns* (modifying a specific verb to claim a real mechanism); domain-specific uses ("paradigm shift" in a Kuhn citation; "leverage" in finance; "modality" in HCI).
+**Term-of-art exceptions (NOT slop):** *structurally isolates* / *structurally aligns* (modifying a specific verb to claim a real mechanism); domain uses ("paradigm shift" in a Kuhn citation; "leverage" in finance; "modality" in HCI). Real scaffolding (construction, biology) is fine.
 
 ### Verbose phrases — use the simple form
 
@@ -75,12 +75,7 @@ Each pre-announces structure the next sentence delivers. **Test:** if removing t
 
 ### Closer-inversions — end the sentence plainly
 
-Sentences that end with constructions like *"itself the X the field needs"*, *"the thing the X is for"*, *"exactly the X the Y has to read through"*, or *"the same constraint that made it Y in the first place"* read as the writer reaching for a closer. The shape is a clever inversion that reframes the just-stated claim as significant by the act of restating it.
-
-Examples:
-- *"treat obfuscation not as a reason to avoid the experiment but as the thing the experiment is for"*
-- *"itself the finding the field needs"*
-- *"exactly the structural asymmetry the detector has to read through"*
+Sentences that end with constructions like *"itself the X the field needs"*, *"the thing the X is for"*, *"exactly the X the Y has to read through"*, or *"the same constraint that made it Y in the first place"* read as the writer reaching for a closer. The shape is a clever inversion that reframes the just-stated claim as significant by the act of restating it (*"treat obfuscation not as a reason to avoid the experiment but as the thing the experiment is for"*).
 
 Good writers do this occasionally. LLMs trained on essays do it too often. **Rewrite:** state the substance plainly and end the sentence. If the inversion is doing real work (a tight contrast), keep at most one per page.
 
@@ -146,16 +141,7 @@ Slop:
 
 Pre-announces a dual structure, labels the two halves, then describes each. Human writers go directly to the first item.
 
-**Rule:** no "Two/Three X, both/all Y" opener at the start of a paragraph, section, or after a bold inline label. Rewrites:
-
-(a) Drop the announcement, go directly:
-> *First, we apply the technique to X ... Second, the same technique applies to Y ...*
-
-(b) State the unified method, then list applications:
-> *The technique applies in two settings. For X, ... For Y, ...*
-
-(c) Just describe each on its own line, no preamble:
-> ***Setting 1: X.*** ... ***Setting 2: Y.*** ...
+**Rule:** no "Two/Three X, both/all Y" opener at the start of a paragraph, section, or after a bold inline label. Rewrite by dropping the announcement and going directly (*"First, we apply the technique to X ... Second, the same technique applies to Y ..."*), or by stating the unified method then listing applications (*"The technique applies in two settings. For X, ... For Y, ..."*).
 
 ### Three-item parallel-clause padding
 
