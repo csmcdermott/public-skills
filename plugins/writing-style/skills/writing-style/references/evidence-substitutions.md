@@ -52,10 +52,6 @@ The verbs are not forbidden; using them as a substitute for the anchored object 
 
 Pattern: the coined noun is doing decorative work; it sounds technical or weighty but does not add information the plain English form would not carry. Substitute and the meaning is preserved; if not, the noun is doing genuine work and you may be in the deliberately-coining case.
 
-## The Tell test (for coined nouns)
-
-The noun's only job is to make the sentence sound more technical or more important. Substitute the plain word; if the sentence still says exactly what you meant, the plain word wins.
-
 ## When you do coin a term
 
 The first mention defines the concept in one sentence ("a property we call **weight identity**: the adapter shares its weights with the base model"), and every subsequent mention uses the same coined name unchanged. Don't drift across "the property we call X" → "the X mechanism" → "X-based architecture" within a single piece. Pick one form, hold it.
