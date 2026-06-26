@@ -68,8 +68,6 @@ If the opening tension is *"the output says one thing but the internal state say
 - Section 2 isn't *"we steer the output"*. It is *"we run the same gap the other way: if the internal state holds the truth, push the output toward what it already encodes."* Same tension, different angle.
 - Section 3 isn't *"we train against the signal"*. It is *"the hardest test of the gap is whether closing it produces honesty or only better hiding."* Same tension, sharpest angle.
 
-**Test:** can you point at the one-sentence tension claim from the opening, then point inside each section at a sentence that restates the same tension from a new angle? If the only sentence carrying the tension in a section is the heading, the section is paragraphs in a trench coat.
-
 ## 5. The cut pass (P6 in practice)
 
 Good prose is selected, not poured. The discipline is brutal cutting: an eight-page article goes to four, then to three; a finished piece loses ten percent and reads unharmed or better. The pass has three moves: start where the content starts, cut what is about you, then remove every word not doing work.
