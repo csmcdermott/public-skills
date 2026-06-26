@@ -18,7 +18,9 @@ Apply this whenever you write prose for a human to read. The rules are universal
 | **P5. Sentences breathe** | Vary length; one job per sentence; short before long. | Two sentences in a row each doing two jobs? Split one. |
 | **P6. Cut to the signal** | Start where the content starts; cut what's about you; then green the draft. | Could you delete this sentence and lose nothing? Delete it. |
 
-Plus always-on hygiene: active voice; no em dashes in body prose; calibrate confidence honestly; never fabricate numbers, names, or citations; no slop words (see `references/anti-patterns.md`).
+Plus always-on hygiene: active voice; calibrate confidence honestly; never fabricate numbers, names, or citations; no slop words (see `references/anti-patterns.md`).
+
+**Never put an em dash (—) in body prose.** It is the top AI tell. Use a comma or parentheses for an aside, a colon for a reveal, a period for a hard stop, or recast the sentence. Final pass before sending: search the text for `—` and delete every one.
 
 ## When NOT to use
 
