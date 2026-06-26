@@ -4,7 +4,7 @@
 
 A canonical opening from a well-known technology essay introduces two contemporaneous events (selling personal computers, and selling operating systems for them) and names a single tension: *the second was much weirder than the first.* The paragraph then returns to that tension from five angles in succession: a computer had physical reality (you could open the box and watch lights blink), while an OS arrived as a long string of ones and zeros with no tangible incarnation; even people who understood what an OS was treated it as an arcane engineering prodigy, like a breeder reactor or a spy plane, never something that could be "productized."
 
-What's happening: one tension named (*operating systems are weirder to sell than computers*) and then the same claim restated from five angles inside one paragraph: physical box vs. no incarnation, lights blink vs. ones and zeroes, breeder reactor analogy, not productizable. The author does not state the tension once and move to method. The tension returns from a new angle every two or three sentences.
+What's happening: one tension named (*operating systems are weirder to sell than computers*), then restated from five angles inside one paragraph. The author does not state the tension once and move to method; the tension returns from a new angle every two or three sentences.
 
 **Lesson:** the section paragraph should not be "topic sentence + supporting detail + supporting detail + closer". It should be "tension restated + first angle on the tension + second angle + third angle". The same claim returns from new angles.
 
