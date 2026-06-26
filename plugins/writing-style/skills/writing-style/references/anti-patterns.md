@@ -187,17 +187,17 @@ A noun reading as technical jargon must be either (1) established field terminol
 
 ## The five slop tells — phrase lists
 
-SKILL.md names the five taxonomy categories; this is the catalog of tell-phrases. Each is a symptom of a precept being skipped, not a new rule.
+SKILL.md names and defines the five categories; this is the catalog of tell-phrases.
 
-**Generic** (could front any topic; no specifics). *In today's fast-paced world; in the world of X; it's more important than ever; whether you're a beginner or an expert; by leveraging best practices; take it to the next level; at the end of the day; as teams scale; X has never been more important.* Fix: cut the windup, open on the specific subject (P6), bring a number or name (P3).
+**Generic.** *In today's fast-paced world; in the world of X; it's more important than ever; whether you're a beginner or an expert; by leveraging best practices; take it to the next level; at the end of the day; as teams scale; X has never been more important.* Fix: cut the windup, open on the specific subject (P6), bring a number or name (P3).
 
-**Pseudo-insight** (profound-sounding but content-free). *The key is to find balance; it's not about the destination; true growth comes from within; when you change the way you look at things; Something shifted.* The tells: a dramatic single-sentence reveal, a tautology presented as wisdom, a vague metaphor that doesn't clarify. Fix: state the concrete fact or cut the line (closer-inversion and aphoristic-flourish bans above).
+**Pseudo-insight.** *The key is to find balance; it's not about the destination; true growth comes from within; when you change the way you look at things; Something shifted.* The tells: a dramatic single-sentence reveal, a tautology presented as wisdom, a vague metaphor that doesn't clarify. Fix: state the concrete fact or cut the line (closer-inversion and aphoristic-flourish bans above).
 
-**Fake authority** (claim without a source). *Studies have shown; experts agree; research suggests; the data speaks for itself; industry leaders recognize.* Fix: name the study, the expert, or the number, or drop the claim (P3, and bare-superlatives below).
+**Fake authority.** *Studies have shown; experts agree; research suggests; the data speaks for itself; industry leaders recognize.* Fix: name the study, the expert, or the number, or drop the claim (P3, and bare-superlatives below).
 
-**Wikipedia rehash** (definition posing as content). *X is defined as; X refers to the process of; X is a type of; in simple terms, X is; there are several types of X.* Fix: lead with what the reader needs from X, not its dictionary entry (P6).
+**Wikipedia rehash.** *X is defined as; X refers to the process of; X is a type of; in simple terms, X is; there are several types of X.* Fix: lead with what the reader needs from X, not its dictionary entry (P6).
 
-**Wellness filler** (gentle advice that cannot be wrong). *Self-care isn't selfish; honor your journey; you are enough; set healthy boundaries; embrace your authentic self; rest is productive; protect your peace.* Fix: cut it. It carries no fact, no state change, no constraint.
+**Wellness filler.** *Self-care isn't selfish; honor your journey; you are enough; set healthy boundaries; embrace your authentic self; rest is productive; protect your peace.* Fix: cut it. It carries no fact, no state change, no constraint.
 
 ## Clutter — the bracket test
 
