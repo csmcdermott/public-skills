@@ -171,13 +171,7 @@ A directional/modal verb (*requires, allows, prevents, enables, mandates, permit
 
 ## Bare adjectives posing as evidence
 
-Every load-bearing claim is paired with a name, a number, or a URL.
-
-**Bare superlatives:** "the strongest", "the most rigorous", "the best", "the leading". These claim a top rank without naming the field.
-
-**Bare impact verbs:** "advances the field", "demonstrates commitment", "unlocks investment", "accelerates progress", "enables the work". These claim impact without naming the beneficiary or the artifact.
-
-See `evidence-substitutions.md` for the substitution tables and fix options.
+Every load-bearing claim is paired with a name, a number, or a URL. The recurring catches are **bare superlatives** ("the strongest", "the best", "the leading") and **bare impact verbs** ("advances the field", "unlocks investment", "accelerates progress"). See `evidence-substitutions.md` for the full lists, why each fails, and how to fix it.
 
 ## Coined nouns posing as technical terms
 
