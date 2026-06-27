@@ -5,7 +5,7 @@
 | **Project name** | mcds-public-skills |
 | **Purpose** | Public Claude Code plugin marketplace. Users install individual plugins via the Claude Code CLI. |
 | **Target release** | Ongoing / open-ended |
-| **Last updated** | 2026-06-24 |
+| **Last updated** | 2026-06-26 |
 
 ## Tech Stack
 
@@ -54,7 +54,7 @@ public-skills/
 │   │       └── writing-style/
 │   │           ├── SKILL.md       # main skill: precepts P1-P6, five slop tells, format entry points
 │   │           ├── references/    # narrative-arcs, anti-patterns, evidence-substitutions
-│   │           └── evals/         # behavior fixtures (01-06) for /eval-skills and /draft-loop
+│   │           └── evals/         # behavior fixtures (01-13, incl. 03 known-bad) for /eval-skills, /draft-loop, /compress-skill
 │   └── create-persona/            # structured interview that emits persona review skills
 │       ├── .claude-plugin/
 │       │   └── plugin.json
@@ -118,8 +118,7 @@ claude plugin install <plugin-name>@mcds-public-skills
 | Date | Area | Description |
 | --- | --- | --- |
 | 2026-05-14 | `.claude/settings.local.json` | Contains stale `mkdir`/`cp`/`rm` permission entries from initial plugin scaffolding; can be cleaned up |
-| 2026-06-15 | `~/.claude/skills/writing-style/SKILL.md` | Stale personal-scope writing-style skill duplicates the plugin (older content); causes two `writing-style` entries in skill discovery. Worth deleting once the plugin version is confirmed in use |
-| 2026-06-24 | `plugins/writing-style/skills/writing-style/SKILL.md` | ~1,655 words (linter counts 1,625), compressed from 2,442 over two sessions (32% smaller). Still above the writing-skills <500 target, but intentionally rich and loads every session. The precept sections, Quick reference table, format entry points, five slop tells, and references' unique catch-rules are load-bearing (fixture-verified); the compressible fat (triple-stated precepts, redundant columns/examples) has now been removed |
+| 2026-06-26 | `plugins/writing-style/skills/writing-style/SKILL.md` | Body is 1,703 words (linter count), total content 6,113 across SKILL.md + 3 references. Above the writing-skills <500 target, but intentionally rich and loads every session. Compression is exhausted: a 9-round `/compress-skill` run confirmed the remaining text is load-bearing (precepts P1-P6, Quick reference, format entry points, five slop tells, and the references' unique catch-rules are all fixture-verified). The aphoristic-flourish section of `anti-patterns.md` in particular cannot be compressed without regressing fixture 07 |
 
 ## Recently Changed Areas
 
